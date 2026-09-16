@@ -1,5 +1,5 @@
 // 把反转的四行代码，一行一行打印它到底干了什么（只用两个节点：1号 2号）
-// 运行：node 03b_reverse_step.js
+// 运行：node linkedlist_04_reverse_step_by_step.js
 
 class Node {
   constructor(val) { this.val = val; this.next = null }

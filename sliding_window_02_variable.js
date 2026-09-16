@@ -1,5 +1,5 @@
 // 滑动窗口（二）：变长窗口 —— 最长无重复字符子串（LeetCode 3）
-// 运行：node 11_variable_window.js
+// 运行：node sliding_window_02_variable.js
 //
 // 上一课：窗口大小固定 k，right 走一格，left 就跟着走一格（进一个、出一个）。
 // 这一课：窗口大小不固定 ——
@@ -65,7 +65,7 @@ console.log(`   最长长度 = ${r1.best}，那段是 "${r1.str}"`)
 
 console.log('')
 console.log('============================================================')
-console.log('例 3：写法二（Map，左端直接跳）—— 用回 07_twosum 那张 Map')
+console.log('例 3：写法二（Map，左端直接跳）—— 用回 hash_02_two_sum.js 那张 Map')
 console.log('============================================================')
 console.log('Map 记「字符 → 它上次出现在第几位」。撞车时不用一格一格挪，直接跳到它上次位置的下一格。')
 console.log('')

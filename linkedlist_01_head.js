@@ -1,5 +1,5 @@
 // head 到底是什么
-// 运行：node head.js
+// 运行：node linkedlist_01_head.js
 
 class Node { constructor(val, next = null) { this.val = val; this.next = next } }
 

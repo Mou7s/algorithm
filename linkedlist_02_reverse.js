@@ -1,5 +1,5 @@
 // 链表反转 —— 极简版（就这 9 行是核心）
-// 运行：node reverse.js
+// 运行：node linkedlist_02_reverse.js
 
 class Node {
   constructor(val, next = null) { this.val = val; this.next = next }

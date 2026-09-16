@@ -1,5 +1,5 @@
 // 哈希表（二）：两数之和（LeetCode 1）
-// 运行：node 07_twosum.js
+// 运行：node hash_02_two_sum.js
 
 // 抽屉里这次不只记"有没有"，还要记"它上一次在第几个位置" → 用 Map
 function twoSum(nums, target, log) {

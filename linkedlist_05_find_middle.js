@@ -1,5 +1,5 @@
 // 快慢指针（一）：找中间节点
-// 运行：node 04_fastslow.js
+// 运行：node linkedlist_05_find_middle.js
 
 class Node {
   constructor(val, next = null) { this.val = val; this.next = next }

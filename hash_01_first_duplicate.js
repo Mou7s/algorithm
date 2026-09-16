@@ -1,5 +1,5 @@
 // 哈希表（一）：抽屉 = 边看边记
-// 运行：node 06_hash.js
+// 运行：node hash_01_first_duplicate.js
 
 // ---- 笨办法：两两比 ----
 function firstDupBrute(a) {

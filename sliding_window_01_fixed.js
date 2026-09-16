@@ -1,5 +1,5 @@
 // 滑动窗口（一）：窗口是什么 + 固定大小的窗口怎么滑
-// 运行：node 10_sliding_window.js
+// 运行：node sliding_window_01_fixed.js
 //
 // 一句话：窗口 = 数组里「连续的一截」，用两根手指框住它的两端。
 //

@@ -1,5 +1,5 @@
 // Set 和 Map 的区别
-// 运行：node 08_map_vs_set.js
+// 运行：node hash_03_map_vs_set.js
 
 // ---- Set：只装"东西本身"，只能说"有没有" ----
 const s = new Set()

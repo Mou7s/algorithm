@@ -1,5 +1,5 @@
 // 快慢指针（二）：判断链表有没有环
-// 运行：node 05_cycle.js
+// 运行：node linkedlist_06_detect_cycle.js
 
 class Node {
   constructor(val, next = null) { this.val = val; this.next = next }

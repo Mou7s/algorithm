@@ -1,5 +1,5 @@
 // 链表基础：遍历 / 反转（三根手指）
-// 运行：node 03_linkedlist.js
+// 运行：node linkedlist_03_traverse_and_reverse.js
 
 class Node {
   constructor(val, next = null) { this.val = val; this.next = next }

@@ -1,5 +1,5 @@
 // 双指针（一）：对撞指针 —— 两根手指，一头一尾，往中间夹
-// 运行：node 09_opposite_pointers.js
+// 运行：node two_pointers_01_opposite.js
 //
 // 规则（先记住这一张图，别的都等会儿再说）：
 //
@@ -125,6 +125,6 @@ console.log(`  答案不满足条件的        ：${wrongAnswer}`)
 
 console.log('')
 console.log('=== 回到你已经会的：同一道题，哈希 vs 对撞 ===')
-console.log('哈希（07_twosum.js）：数组乱不乱都行，一遍扫过去边看边记 → 时间 O(n)，但要多一个抽屉（空间 O(n)）')
+console.log('哈希（hash_02_two_sum.js）：数组乱不乱都行，一遍扫过去边看边记 → 时间 O(n)，但要多一个抽屉（空间 O(n)）')
 console.log('对撞（本文件）      ：必须排好序，两头往中间夹 → 时间 O(n)，不要额外空间（空间 O(1)）')
 console.log('所以：给的数组本来就无序，就老实用哈希；题目说“已排序”，就用对撞省下那个抽屉。')
